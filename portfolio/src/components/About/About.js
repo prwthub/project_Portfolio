@@ -17,8 +17,8 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "0px",
+              paddingBottom: "75px",
             }}
           >
             <h1 style={{ fontSize: "24", paddingBottom: "20px" }}>
@@ -35,17 +35,19 @@ function About() {
           </Col>
         </Row>
 
-
+        <div style={{paddingTop: "125px"}}></div>
         <h1 className="project-heading">
           My <strong className="purple">Skills</strong>
         </h1>
         <Techstack />
 
-        <h1 className="project-heading">
+        <div style={{paddingTop: "125px"}}></div>
+        <h1 className="project-heading" style={{paddingTop: "0px"}}>
           My <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
 
+        
         {/* <Github /> */}
       </Container>
     </Container>

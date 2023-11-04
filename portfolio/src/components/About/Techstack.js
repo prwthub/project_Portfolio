@@ -1,6 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiPython, DiJava, DiHtml5, DiCss3, DiPhp, DiCode, DiDart } from "react-icons/di";
+import { DiJavascript1, DiPython, DiJava, DiHtml5, DiCss3, DiPhp, DiCode, DiDart} from "react-icons/di";
+import {
+  SiPostman,
+  SiSelenium,
+  SiRobotframework,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -37,6 +42,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDart />
         <p className="tech-label">Dart</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+        <p className="tech-label" style={{fontSize:"32px"}}>Testing</p>
+        <p className="tech-label" style={{fontSize:"32px"}}>API</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRobotframework />
+        <p className="tech-label" style={{fontSize:"32px"}}>Testing</p>
+        <p className="tech-label" style={{fontSize:"32px"}}>Website</p>
       </Col>
     </Row>
     </>

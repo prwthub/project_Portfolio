@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+//import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/c7.gif";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillFacebook,
@@ -8,6 +9,7 @@ import {
   AiFillGithub,
   AiOutlineMail,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -32,7 +34,8 @@ function Home2() {
               {" "}at KMUTNB.
               <br />
               <br />
-              If you want to get to know me better, go to <span className="purple">About</span>
+              If you want to get to know me better, go to 
+              <span className="purple"><Link to="/about" className="purple"> About</Link></span>
               <br />
             </p>
           </Col>

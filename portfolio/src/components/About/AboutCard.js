@@ -17,23 +17,23 @@ function AboutCard() {
             at King Mongkut's University of Technology North Bangkok. 
             <br />
             <br />
-
-            I'm a person who likes to learn new things. 
-            <br />
-            And I'm interested in :
           </p>
+
+          <p style={{ textAlign: "justify", marginBottom: "1px"}}>And I'm interested in :</p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Software Tester
+            <li className="about-activity" style={{marginBottom: "3px"}}>
+              -<span className="purple"> Software Tester</span>
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Java Developer
+            <li className="about-activity" style={{marginBottom: "3px"}}>
+              -<span className="purple"> Java Developer</span>
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Font-End Developer
+            <li className="about-activity"style={{marginBottom: "3px"}}>
+              -<span className="purple"> Font-End Developer</span>
             </li>
           </ul>
 
+          <br />
+          
           <p style={{ color: "rgb(155 126 172)" }}>
             "Set tough goals and do not stop until you get there."{" "}
           </p>
