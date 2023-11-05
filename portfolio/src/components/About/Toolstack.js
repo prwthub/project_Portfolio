@@ -10,9 +10,7 @@ import {
   SiFirebase,
   SiApachenetbeanside,
   SiPycharm,
-  SiFlutter,
-  SiMongodb,
-  SiCisco
+  SiGithub
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,6 +20,10 @@ function Toolstack() {
         <Col xs={4} md={2} className="tech-icons">
           <SiGit />
           <p className="tech-label">Git</p>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiGithub />
+          <p className="tech-label">Github</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiVisualstudiocode />
@@ -35,14 +37,6 @@ function Toolstack() {
           <SiPycharm />
           <p className="tech-label">Pycharm</p>
         </Col>
-        {/* <Col xs={4} md={2} className="tech-icons">
-          <SiFlutter />
-          <p className="tech-label">Flutter Flow</p>
-        </Col> */}
-        <Col xs={4} md={2} className="tech-icons">
-          <SiCisco />
-          <p className="tech-label">Cisco</p>
-        </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiFirebase />
           <p className="tech-label">Firebase</p>
@@ -51,10 +45,6 @@ function Toolstack() {
           <SiMysql />
           <p className="tech-label">MySQL</p>
         </Col>
-        {/* <Col xs={4} md={2} className="tech-icons">
-          <SiMongodb />
-          <p className="tech-label">MongoDB</p>
-        </Col> */}
         <Col xs={4} md={2} className="tech-icons">
           <SiPostman />
           <p className="tech-label">Postman</p>

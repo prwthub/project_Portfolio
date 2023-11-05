@@ -34,8 +34,8 @@ function Home2() {
               {" "}at KMUTNB.
               <br />
               <br />
-              If you want to get to know me better, go to 
-              <span className="purple"><Link to="/about" className="purple"> About</Link></span>
+              If you want to get to know me better, go to {""}
+              <span className="purple"><Link to="/about" className="purple">About</Link></span>
               <br />
             </p>
           </Col>

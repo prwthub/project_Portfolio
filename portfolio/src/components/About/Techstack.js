@@ -39,10 +39,10 @@ function Techstack() {
         <DiCode />
         <p className="tech-label">SQL</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiDart />
         <p className="tech-label">Dart</p>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
         <p className="tech-label" style={{fontSize:"32px"}}>Testing</p>
