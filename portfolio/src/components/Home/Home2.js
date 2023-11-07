@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//import myImg from "../../Assets/avatar.svg";
-import myImg from "../../Assets/c7.gif";
+import myImg from "../../Assets/logo.gif";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillFacebook,
@@ -10,7 +9,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Home2() {
   return (

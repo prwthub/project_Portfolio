@@ -30,7 +30,7 @@ function Projects() {
               title="Bachelor Degree Project"
               description="childcare software โดยทำทั้ง website และ mobile
               สามารถอ่านรายละเอียดได้ใน github"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -42,7 +42,7 @@ function Projects() {
               title="Webboard Project"
               description="Webboard โดยใช้ HTML,CSS,Java Script,PHP และ Bootstrap
               และใช้ database เป็น MySQL"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -53,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Food Webboard Project"
               description="นำ Webboard Project เก่ามา reuse โดยใช้โครงสร้างเดิม แต่พัฒนาให้มีฟีเจอร์ให้ดียิ่งขึ้น"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -64,7 +64,7 @@ function Projects() {
               isBlog={false}
               title="University Grading Project"
               description="ออกแบบ university grading API โดยใช้ Apiary และพัฒนาโดยใช้ภาษา Rust"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -75,7 +75,7 @@ function Projects() {
               isBlog={false}
               title="Postman"
               description="ออกแบบการสอน Testing API โดยใช้ Postman"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -86,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="React"
               description="เรียนรู้ React เบื้องต้น"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -97,7 +97,7 @@ function Projects() {
               isBlog={false}
               title="Appium"
               description="เรียนรู้ Appium เบื้องต้น ด้วยตนเอง"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>
@@ -108,7 +108,7 @@ function Projects() {
               isBlog={false}
               title="Robot"
               description="เรียน Robot เบื้องต้น ด้วยตนเอง"
-              ghLink=""
+              ghLink="https://github.com/prwthub"
               demoLink=""
             />
           </Col>

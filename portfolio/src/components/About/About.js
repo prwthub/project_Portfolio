@@ -4,8 +4,8 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/mypic.jpg";
 import Toolstack from "./Toolstack";
+import me from "../../Assets/mypic.jpg";
 
 function About() {
   return (
@@ -31,7 +31,7 @@ function About() {
             style={{ paddingTop: "5px", paddingBottom: "0px"  }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" style={{width:"90%", borderRadius:"15px"}}/>
+            <img src={me} alt="about" className="img-fluid" style={{width:"90%", borderRadius:"15px"}}/>
           </Col>
         </Row>
 
@@ -41,14 +41,20 @@ function About() {
         </h1>
         <Techstack />
 
-        <div style={{paddingTop: "125px"}}></div>
-        <h1 className="project-heading" style={{paddingTop: "0px"}}>
+        <div style={{paddingTop: "75px"}}></div>
+        <h1 className="project-heading">
           My <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
 
-        
-        {/* <Github /> */}
+        <div style={{paddingTop: "75px"}}></div>
+        <h1 className="project-heading">
+          Days I <strong className="purple">Code</strong>
+        </h1>
+        <Github />
+
+        <div style={{paddingTop: "75px"}}></div>
+
       </Container>
     </Container>
   );

@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ExperienceCard from "./ExperienceCards";
 import Particle from "../Particle";
-import student from "../../Assets/Exp/student.JPG";
-import festo from "../../Assets/Exp/festo.jpg";
-import study from "../../Assets/Exp/study.JPG";
-import car from "../../Assets/Exp/car.jpeg";
-import benz from "../../Assets/Exp/benz.jpeg";
-import farewell from "../../Assets/Exp/farewell.jpeg";
+import student from "../../Assets/Experience/student.JPG";
+import festo from "../../Assets/Experience/festo.jpg";
+import study from "../../Assets/Experience/study.JPG";
+import car from "../../Assets/Experience/car.jpeg";
+import benz from "../../Assets/Experience/benz.jpeg";
+import farewell from "../../Assets/Experience/farewell.jpeg";
 
 function Experience() {
   return (
@@ -26,8 +26,8 @@ function Experience() {
               imgPath={student}
               isBlog={false}
               title="Germany Internship"
-              description="สอบชิงทุนไปฝึกงานที่เยอรมัน เป็นระยะเวลาทั้งสิ้น 3 เดือน 
-              โดยไปฝึกที่มหาลัย Esslingen University of Applied Sciences"
+              description="สอบชิงทุนไปฝึกงานที่เยอรมัน เป็นระยะเวลา 3 เดือน 
+              โดยได้ไปฝึกที่มหาลัย Esslingen University of Applied Sciences"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -35,7 +35,8 @@ function Experience() {
               imgPath={festo}
               isBlog={false}
               title="Festo trip"
-              description="ไปดูและศึกษางานที่บริษัท Festo ประเทศไทย กับทางมหาลัย เนื่องจากบริษัทให้ทุนสนับสนุนค่าที่พักในเยอรมัน"
+              description="ไปดูและศึกษางานที่บริษัท Festo ประเทศไทย กับทางมหาลัย 
+              เนื่องจากบริษัทให้การสนับการเรียนรู้และให้ทุนสนับสนุนค่าที่พักในเยอรมัน"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -43,7 +44,8 @@ function Experience() {
               imgPath={study}
               isBlog={false}
               title="Exchange student"
-              description="เป็นนักเรียนแลกเปลี่ยนไปเรียนหลักสูตรพื้นฐานที่มหาลัยเยอรมัน"
+              description="เข้าเรียนหลักสูตรพื้นฐานที่มหาลัย
+              Esslingen University of Applied Sciences ในเยอรมัน"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -60,7 +62,8 @@ function Experience() {
               imgPath={benz}
               isBlog={false}
               title="Mercedes Benz trip"
-              description="มีส่วนร่วมในการไปดูงานที่พิพิธภัณฑ์ Mercedes Benz ที่เมือง stuttgart กับทางมหาลัยที่เยอรมัน"
+              description="มีส่วนร่วมในการไปดูงานและเข้าชมพิพิธภัณฑ์ Mercedes Benz ที่เมือง stuttgart 
+              ร่วมกับศาสตราจารย์กับทางมหาลัยที่เยอรมัน"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -68,7 +71,7 @@ function Experience() {
               imgPath={farewell}
               isBlog={false}
               title="Farewell Meeting"
-              description="เข้าร่วมกิจกรรมกับทางมหาลัยที่เยอรมันครั้งสุดท้ายก่อนกลับไทย"
+              description="เข้าร่วมกิจกรรมกับทางมหาลัยที่เยอรมันและร่วมทานมื้ออาหารครั้งสุดท้ายก่อนกลับไทย"
             />
           </Col>
         </Row>

@@ -27,7 +27,9 @@ function Toolstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiVisualstudiocode />
-          <p className="tech-label" style={{fontSize : "32px"}}>Visual studio</p>
+          <p className="tech-label" style={{fontSize:"32px"}}>Visual</p>
+          <p className="tech-label" style={{fontSize:"32px"}}>studio</p>
+          {/* <p className="tech-label" style={{fontSize : "32px"}}>Visual studio</p> */}
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiApachenetbeanside />
@@ -55,12 +57,10 @@ function Toolstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiRobotframework />
-          <p className="tech-label" style={{fontSize : "32px"}}>Robot framework</p>
+          <p className="tech-label" style={{fontSize:"32px"}}>Robot</p>
+          <p className="tech-label" style={{fontSize:"32px"}}>framework</p>
+          {/* <p className="tech-label" style={{fontSize : "32px"}}>Robot framework</p> */}
         </Col>
-
-        
-        
-        
       </Row>
     </>
   );

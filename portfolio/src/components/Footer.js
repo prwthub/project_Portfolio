@@ -15,8 +15,8 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Develop by prwthub</h3>
-          <h3 style={{fontSize:"10px"}}>reference : soumyajit4419</h3>
+          <h3>prwthub</h3>
+          {/* <h3 style={{fontSize:"10px"}}>reference : soumyajit4419</h3> */}
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>on {year}</h3>
